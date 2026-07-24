@@ -1,24 +1,79 @@
 aid: booster-fuels
 name: Booster Fuels
-description: 'Booster Fuels is a company surfaced as a portfolio company of version-one-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: energy. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Booster (Booster Fuels, Inc.) is a mobile energy delivery company that brings
+  gasoline, diesel, diesel exhaust fluid (DEF), and renewable fuel alternatives
+  directly to vehicles, fleets, and on-site fuel tanks using a fleet of Smart
+  Tankers, removing the need for drivers to visit gas stations. The company
+  serves enterprise fleets and local businesses across the United States, pairing
+  on-demand fueling with a proprietary technology platform (BoosterOS / the Fleet
+  dashboard at fleet.trybooster.com) for real-time fleet management, fuel-usage
+  reporting, invoicing automation, fraud prevention, and emissions reduction.
+  Booster offers custom enterprise integrations (ERP, CRM, and telematics such as
+  Geotab and Samsara) but does not publish a public developer API portal,
+  OpenAPI definition, or SDKs. This profile is a company/lead entry in the API
+  Evangelist network; no public API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/booster-fuels/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://boosterusa.com/wp-content/uploads/2024/12/social_share_mobile_fueling.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - version-one-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none-public
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Energy
+- Fuel Delivery
+- Fleet Management
+- Mobile Fueling
+- Logistics
+- Transportation
+- Sustainability
 apis: []
+common:
+- type: DomainSecurity
+  url: security/booster-fuels-domain-security.yml
+- type: Website
+  url: https://boosterusa.com/
+- type: SignUp
+  url: https://fleet.trybooster.com/login
+- type: Login
+  url: https://fleet.trybooster.com/login
+- type: Blog
+  url: https://boosterusa.com/blog/
+- type: Support
+  url: https://boosterusa.com/about/contact/
+- type: HelpCenter
+  url: https://boosterusa.com/faqs/
+- type: TermsOfService
+  url: https://boosterusa.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://boosterusa.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/boosterfuels
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
