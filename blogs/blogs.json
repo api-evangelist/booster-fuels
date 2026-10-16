@@ -2,6 +2,13 @@
   "repo": "booster-fuels",
   "feeds": [
     {
+      "source": "https://boosterusa.com/blog/",
+      "feed_url": "https://boosterusa.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://fleet.trybooster.com/login",
       "feed_url": "https://fleet.trybooster.com/login",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
